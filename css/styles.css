@@ -1,0 +1,266 @@
+body{
+
+  font-family: 'Poppins', sans-serif;
+  background-color:  #DAAD86;
+  padding-top: 80px; 
+  
+
+}
+
+
+
+
+.navbar {
+    
+  margin-top: -80px;
+  height: 70px;
+  background-color: #659DBD !important;
+  
+}
+
+nav .navbar-nav li a{
+color: black !important;
+}
+
+nav .navbar-brand {
+
+color:  black !important;
+
+}
+
+.register {
+
+  background-color: #FBEEC1 !important;
+
+}
+
+.logbutton {
+
+  background-color: #659dbd;
+  color: black;
+}
+
+.registerbutton {
+
+  background-color: #8d8741;
+
+}
+
+
+.dwnBt {
+
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+
+
+.masthead {
+  margin-top: -16px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../img/parkingBt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead h1 {
+ 
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(251,238,193), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+  color: #bfb79b;
+}
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-section p {
+  margin-bottom: 5rem;
+  color: #bfb79b;
+}
+
+
+.contact-section {
+  background: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 5rem;
+}
+.contact-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #64a19d;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .social {
+  margin-top: 5rem;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.contact-section .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact-section .social a:active {
+  color: #fff;
+}
+
+
+.main-container {
+  max-width: 1950px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.banner {
+
+
+  width: 100%;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  opacity: .9;
+
+}
+
+.content {
+  margin-top: 40px;
+  padding-left: 55px;
+}
+.content h1 {
+  
+  font-size: 61px;
+  line-height: 26px;  
+  color: #FBEEC1;
+  margin-bottom: 50px;
+}
+.content h4 {
+  font-size: 33px;
+  line-height: 26px;
+  color: grey;
+  margin-bottom: 25px;
+}
+.content p {
+  width: 55%;
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 90px;
+}
+.butns .get-btn  {
+  
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #53c5d5;
+  border-radius: 50px; 
+  border: 2px solid #53c5d5;
+  padding: 10px 49px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}    
+.butns .learn-btn {
+  font-family: Dosis-bold;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 50px; 
+  border: 2px solid #ffffff;
+  padding: 10px 45px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 720px) {
+#chart{
+    margin-left:177px;
+},
+
+}
+
+
+.collapse {
+  
+background: rgb(101,157,189);
+background: linear-gradient(90deg, rgba(101,157,189,0.8127626050420168) 34%, rgba(255,255,255,0) 38%);
+}
+
+.downIcon{
+
+  animation: spinIcon 2s ;
+
+
+}
+
+@keyframes spinIcon{
+
+  100% {transform: rotate(360deg);}
+
+}
+
