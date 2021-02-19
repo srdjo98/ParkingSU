@@ -212,8 +212,8 @@ $zona4Cena = 20.42;
             <thead class="col-12">
                 <tr>
                 <th scope="col"></th>
-                <th scope="col">Zona</th>
-                <th scope="col">Zona Cena</th>
+                <th scope="col">Zona  </th>
+                <th scope="col">Zona Cena </th>
                 <th scope="col">Registarske tablice</th>
                 <th scope="col">Mesto</th>
                 <th scope="col">Pogledajte na mapi</th>
@@ -297,7 +297,7 @@ $zona4Cena = 20.42;
     <div class="col-sm-12 col-md-6">
         <div style="text-align:center">
 
-        <h5>Ukupna potrošnja</h5>
+        <h5>Godišnja potrošnja</h5>
         <small>Kliknite na zonu da bi videli samo njen prikaz</small>
         <canvas id="myChart"></canvas>
         <p>zona 1 = <?php echo $zona1Sum = $zona1 * $zona1Cena ?> din</p>
@@ -311,11 +311,9 @@ $zona4Cena = 20.42;
     
 
     <div class="col-sm-12 col-md-6">
-        <div style="text-align:center;width:100%; height:400px; border:1px solid black;">
-        
-        
+        <div style="text-align:center">
 
-        <select class="form-control col-sm-12 col-xl-" id="exampleFormControlSelect1 " name="month" >
+        <select class="form-control col-sm-4 " id="exampleFormControlSelect1 " name="month" style="margin-left:177px">
             
             <option value='0'>Izaberite mesec</option>
             <option value='1'>Januar</option>
@@ -334,7 +332,6 @@ $zona4Cena = 20.42;
         </select>
 
 
-        
 
         <div id="result">
 
