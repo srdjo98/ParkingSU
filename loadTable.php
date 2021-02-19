@@ -21,44 +21,44 @@ $zons = new Zone();
                 <tr >
                 <th scope="row col-12" '></th>
                 
-                    <td><?php if($value->zona1 == 1){
+                <td><?php if($value->zona1 == 1){
 
                     echo 'Crvena';
 
-                    }elseif($value->zona2 == 1){
+                }elseif($value->zona2 == 1){
 
                     echo 'Zuta';
 
-                    }elseif($value->zona3 == 1){
+                }elseif($value->zona3 == 1){
 
                     echo 'Zelena';
 
-                    }elseif($value->zona4 == 1){
+                }elseif($value->zona4 == 1){
 
                     echo 'Plava';
 
-                    }
+                }
 
-                    ?></td>
-                    <td><?php if($value->zona1 == 1){
+                ?></td>
+                <td><?php if($value->zona1 == 1){
 
                     echo($value->zona1) * $zona1Cena . ' dinara';
 
-                    }elseif($value->zona2 == 1){
+                }elseif($value->zona2 == 1){
 
                     echo($value->zona2) * $zona2Cena . ' dinara';
 
-                    }elseif($value->zona3 == 1){
+                }elseif($value->zona3 == 1){
 
                     echo($value->zona3) * $zona3Cena . ' dinara';
 
-                    }elseif($value->zona4 == 1){
+                }elseif($value->zona4 == 1){
 
                     echo($value->zona4) * $zona4Cena . ' dinara';
 
-                    }
-
-                    ?></td>
+                }
+                
+                ?></td>
                 <td><?php print_r($value->register_number)?><a href="regNumber.php?register_number=<?php echo $value->register_number ?>" style="text-decoration:none"><button class="btn  btn-block logbutton" >Podatci na osnovu tablica</button></a></td>
                 <td><?php print_r($value->location)?></td>
                 <td><a href="map.php?id=<?php echo $value->id_zone ?>" style="text-decoration:none"><button class="btn  btn-block logbutton" >Mapa</button></a></td>
